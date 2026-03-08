@@ -11,7 +11,7 @@ const Index = () => {
           <img src={logo} alt="" className="w-full h-full object-cover" />
         </div>
         <div className="relative z-10 text-center space-y-8 px-4 animate-fade-in">
-          <img src={logo} alt="לוגו מועדון רובינשטיין" className="w-40 h-40 mx-auto object-contain rounded-lg shadow-2xl" />
+          <img src={logo} alt="לוגו מועדון רובינשטיין" className="w-40 h-40 mx-auto object-contain rounded-full shadow-2xl" />
           <h1 className="text-4xl md:text-6xl font-display font-bold text-primary-foreground leading-tight">
             מועדון השחמט<br />ע״ש עקיבא רובינשטיין
           </h1>
