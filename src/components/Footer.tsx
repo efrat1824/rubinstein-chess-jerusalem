@@ -11,7 +11,7 @@ const Footer = () => (
         <a href="mailto:rubinstein.chess.jerusalem@gmail.com" className="flex items-center gap-1 hover:text-gold transition-colors">
           <Mail size={16} /> אימייל
         </a>
-        <a href="https://instagram.com/rubinsteinclub" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-gold transition-colors">
+        <a href="https://www.instagram.com/rubinsteinclub/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-gold transition-colors">
           <Instagram size={16} /> <span dir="ltr">@rubinsteinclub</span>
         </a>
       </div>
