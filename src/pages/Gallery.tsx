@@ -19,6 +19,10 @@ import gallery17 from "@/assets/gallery/gallery-17.jpg";
 import gallery18 from "@/assets/gallery/gallery-18.jpg";
 import gallery19 from "@/assets/gallery/gallery-19.jpg";
 import gallery20 from "@/assets/gallery/gallery-20.jpg";
+import gallery21 from "@/assets/gallery/gallery-21.jpg";
+import gallery22 from "@/assets/gallery/gallery-22.jpg";
+import gallery23 from "@/assets/gallery/gallery-23.jpg";
+import gallery24 from "@/assets/gallery/gallery-24.jpg";
 
 const galleryImages = [
   { src: gallery1, alt: "משחקי שחמט בחוץ בירושלים" },
@@ -41,6 +45,10 @@ const galleryImages = [
   { src: gallery18, alt: "שחקנים צעירים במועדון" },
   { src: gallery19, alt: "שחמט בחצר ירושלמית" },
   { src: gallery20, alt: "משחק קבוצתי במועדון" },
+  { src: gallery21, alt: "שחמט רחוב בלילה" },
+  { src: gallery22, alt: "שחמט על הדשא" },
+  { src: gallery23, alt: "שחמט רחוב ליד מחנה יהודה" },
+  { src: gallery24, alt: "תחרות שחמט במועדון" },
 ];
 
 const Gallery = () => {
