@@ -9,6 +9,16 @@ import gallery7 from "@/assets/gallery/gallery-7.jpg";
 import gallery8 from "@/assets/gallery/gallery-8.jpg";
 import gallery9 from "@/assets/gallery/gallery-9.jpg";
 import gallery10 from "@/assets/gallery/gallery-10.jpg";
+import gallery11 from "@/assets/gallery/gallery-11.jpg";
+import gallery12 from "@/assets/gallery/gallery-12.jpg";
+import gallery13 from "@/assets/gallery/gallery-13.jpg";
+import gallery14 from "@/assets/gallery/gallery-14.jpg";
+import gallery15 from "@/assets/gallery/gallery-15.jpg";
+import gallery16 from "@/assets/gallery/gallery-16.jpg";
+import gallery17 from "@/assets/gallery/gallery-17.jpg";
+import gallery18 from "@/assets/gallery/gallery-18.jpg";
+import gallery19 from "@/assets/gallery/gallery-19.jpg";
+import gallery20 from "@/assets/gallery/gallery-20.jpg";
 
 const galleryImages = [
   { src: gallery1, alt: "משחקי שחמט בחוץ בירושלים" },
@@ -21,6 +31,16 @@ const galleryImages = [
   { src: gallery8, alt: "משחק שחמט קלאסי" },
   { src: gallery9, alt: "שחמט בכיכר ציון" },
   { src: gallery10, alt: "שחמט בדשא בירושלים" },
+  { src: gallery11, alt: "לחיצת יד ספורטיבית" },
+  { src: gallery12, alt: "משחקי שחמט בלילה" },
+  { src: gallery13, alt: "ערב שחמט במועדון" },
+  { src: gallery14, alt: "שחמט רחוב בשוק" },
+  { src: gallery15, alt: "תחרות שחמט מהירה" },
+  { src: gallery16, alt: "משחק מרוכז במועדון" },
+  { src: gallery17, alt: "אווירה חברתית במועדון" },
+  { src: gallery18, alt: "שחקנים צעירים במועדון" },
+  { src: gallery19, alt: "שחמט בחצר ירושלמית" },
+  { src: gallery20, alt: "משחק קבוצתי במועדון" },
 ];
 
 const Gallery = () => {
