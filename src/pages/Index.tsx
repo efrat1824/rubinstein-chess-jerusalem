@@ -21,14 +21,6 @@ const Index = () => {
           <p className="text-lg md:text-xl text-primary-foreground/80 max-w-xl mx-auto">
             הבית שלכם לאסטרטגיה ומחשבה – ירושלים
           </p>
-          <div className="flex gap-4 justify-center">
-            <Button asChild size="lg" variant="secondary">
-              <Link to="/about">אודות המועדון</Link>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
-              <Link to="/contact">צור קשר</Link>
-            </Button>
-          </div>
         </div>
       </section>
 
