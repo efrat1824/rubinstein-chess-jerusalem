@@ -45,6 +45,10 @@ const galleryImages = [
   { src: gallery18, alt: "שחקנים צעירים במועדון" },
   { src: gallery19, alt: "שחמט בחצר ירושלמית" },
   { src: gallery20, alt: "משחק קבוצתי במועדון" },
+  { src: gallery21, alt: "שחמט רחוב בלילה" },
+  { src: gallery22, alt: "שחמט על הדשא" },
+  { src: gallery23, alt: "שחמט רחוב ליד מחנה יהודה" },
+  { src: gallery24, alt: "תחרות שחמט במועדון" },
 ];
 
 const Gallery = () => {
