@@ -4,8 +4,8 @@ const contactItems = [
   {
     icon: Phone,
     label: "טלפון",
-    value: "051-200-004",
-    href: "tel:051200004",
+    value: "051-200-0004",
+    href: "tel:0512000004",
   },
   {
     icon: Mail,
