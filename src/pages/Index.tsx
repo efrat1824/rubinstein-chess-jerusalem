@@ -8,10 +8,7 @@ const Index = () => {
       {/* Hero */}
       <section className="relative min-h-[80vh] flex items-center justify-center bg-primary overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="w-full h-full" style={{
-            backgroundImage: `repeating-conic-gradient(hsl(var(--primary-foreground)) 0% 25%, transparent 0% 50%)`,
-            backgroundSize: '60px 60px',
-          }} />
+          <img src={logo} alt="" className="w-full h-full object-cover" />
         </div>
         <div className="relative z-10 text-center space-y-8 px-4 animate-fade-in">
           <img src={logo} alt="לוגו מועדון רובינשטיין" className="w-40 h-40 mx-auto object-contain rounded-lg shadow-2xl" />
