@@ -17,7 +17,7 @@ const contactItems = [
     icon: Instagram,
     label: "אינסטגרם",
     value: "@rubinsteinclub",
-    href: "https://instagram.com/rubinsteinclub",
+    href: "https://www.instagram.com/rubinsteinclub/?utm_source=ig_web_button_share_sheet",
   },
 ];
 
