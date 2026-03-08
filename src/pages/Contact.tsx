@@ -41,7 +41,7 @@ const Contact = () => {
             </div>
             <div>
               <p className="font-display font-bold text-lg">{item.label}</p>
-              <p className="text-muted-foreground text-sm">{item.value}</p>
+              <p className="text-muted-foreground text-sm text-right" dir="ltr">{item.value}</p>
             </div>
           </a>
         ))}

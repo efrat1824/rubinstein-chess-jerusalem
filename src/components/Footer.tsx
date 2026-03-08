@@ -12,7 +12,7 @@ const Footer = () => (
           <Mail size={16} /> אימייל
         </a>
         <a href="https://instagram.com/rubinsteinclub" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-gold transition-colors">
-          <Instagram size={16} /> @rubinsteinclub
+          <Instagram size={16} /> <span dir="ltr">@rubinsteinclub</span>
         </a>
       </div>
       <p className="text-xs text-primary-foreground/60">© {new Date().getFullYear()} כל הזכויות שמורות</p>
