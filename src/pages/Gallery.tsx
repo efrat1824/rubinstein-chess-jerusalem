@@ -55,8 +55,9 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   return (
-    <div dir="rtl" className="container py-16">
-      <h1 className="text-4xl font-display font-bold mb-8 text-center">רגעים מהמועדון</h1>
+    <div dir="rtl" className="min-h-screen" style={{ backgroundColor: '#4A6274' }}>
+      <div className="container py-16">
+      <h1 className="text-4xl font-display font-bold mb-8 text-center text-primary-foreground">רגעים מהמועדון</h1>
       <div className="h-1 w-20 bg-gold mx-auto mb-12 rounded-full" />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
