@@ -1,7 +1,8 @@
 const About = () => {
   return (
-    <div dir="rtl" className="container py-16 max-w-3xl">
-      <h1 className="text-4xl font-display font-bold mb-8 text-center">אודות המועדון</h1>
+    <div dir="rtl" className="bg-primary min-h-screen">
+      <div className="container py-16 max-w-3xl">
+      <h1 className="text-4xl font-display font-bold mb-8 text-center text-primary-foreground">קצת על המועדון</h1>
       <div className="h-1 w-20 bg-gold mx-auto mb-12 rounded-full" />
 
       <div className="space-y-6 text-foreground leading-relaxed text-lg">
