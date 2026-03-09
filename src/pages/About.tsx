@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div dir="rtl" className="bg-primary min-h-screen">
+    <div dir="rtl" className="bg-primary/70 min-h-screen">
       <div className="container py-16 max-w-3xl">
       <h1 className="text-4xl font-display font-bold mb-8 text-center text-primary-foreground">קצת על המועדון</h1>
       <div className="h-1 w-20 bg-gold mx-auto mb-12 rounded-full" />
