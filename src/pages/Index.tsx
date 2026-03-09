@@ -30,11 +30,12 @@ const Index = () => {
       <section className="container py-20">
         <div className="grid md:grid-cols-3 gap-8 text-center">
           {[
-            { title: "חוגים ואימונים", desc: "חוגים מסודרים לכל הגילאים ואימונים אישיים עם מאמנים מקצועיים" },
-            { title: "תחרויות", desc: "תחרויות מקומיות וארציות, מפגשי שחמט חופשי ומשחקים ידידותיים" },
-            { title: "קהילה", desc: "קהילה תוססת של שחקנים, חובבים וסקרנים מכל הגילאים והרמות" },
+            { title: "חוגים ואימונים", desc: "חוגים מסודרים לכל הגילאים ואימונים אישיים עם מאמנים מקצועיים", icon: "♗" },
+            { title: "תחרויות", desc: "תחרויות מקומיות וארציות, מפגשי שחמט חופשי ומשחקים ידידותיים", icon: "♖" },
+            { title: "קהילה", desc: "קהילה תוססת של שחקנים, חובבים וסקרנים מכל הגילאים והרמות", icon: "♞" },
           ].map((item) => (
             <div key={item.title} className="bg-card p-8 rounded-lg border hover:shadow-lg transition-shadow">
+              <div className="text-5xl mb-4 text-primary">{item.icon}</div>
               <h3 className="font-display text-xl font-bold mb-3">{item.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">{item.desc}</p>
             </div>
