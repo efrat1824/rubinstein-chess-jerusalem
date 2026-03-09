@@ -41,14 +41,14 @@ const Contact = () => {
               href={item.href}
               target={item.icon === Instagram ? "_blank" : undefined}
               rel={item.icon === Instagram ? "noopener noreferrer" : undefined}
-              className="flex items-center gap-4 p-6 bg-white/10 rounded-lg border border-white/20 hover:shadow-lg hover:border-gold transition-all group"
+              className="flex items-center gap-4 p-6 bg-white rounded-lg border border-white/20 hover:shadow-lg hover:border-gold transition-all group"
             >
               <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center shrink-0">
                 <item.icon size={20} className="text-primary-foreground" />
               </div>
               <div>
-                <p className="font-display font-bold text-lg text-primary-foreground">{item.label}</p>
-                <p className="text-primary-foreground/70 text-sm text-right" dir="ltr">{item.value}</p>
+                <p className="font-display font-bold text-lg text-foreground">{item.label}</p>
+                <p className="text-muted-foreground text-sm text-right" dir="ltr">{item.value}</p>
               </div>
             </a>
           ))}
