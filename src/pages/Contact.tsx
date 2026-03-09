@@ -11,7 +11,7 @@ const contactItems = [
     icon: MessageCircle,
     label: "וואטסאפ",
     value: "051-200-0004",
-    href: "https://wa.me/9720512000004",
+    href: "https://wa.me/972512000004",
   },
   {
     icon: Mail,
