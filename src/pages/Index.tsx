@@ -19,7 +19,7 @@ const Index = () => {
             הבית שלכם לאסטרטגיה ומחשבה – ירושלים
           </p>
           <a href="tel:0512000004" className="mt-8 inline-block">
-            <Button size="lg" className="bg-gold text-primary font-display font-bold text-xl px-10 py-7 hover:bg-gold/85 shadow-xl tracking-wide">
+            <Button size="lg" className="bg-white text-primary font-display font-bold text-xl px-10 py-7 hover:bg-white/90 shadow-xl tracking-wide">
               דברו איתנו
             </Button>
           </a>
