@@ -1,4 +1,4 @@
-import { Phone, Mail, Instagram, MapPin, MessageCircle } from "lucide-react";
+import { Phone, Mail, Instagram, MapPin } from "lucide-react";
 
 const contactItems = [
   {
@@ -6,12 +6,6 @@ const contactItems = [
     label: "טלפון",
     value: "051-200-0004",
     href: "tel:0512000004",
-  },
-  {
-    icon: MessageCircle,
-    label: "וואטסאפ",
-    value: "051-200-0004",
-    href: "https://wa.me/972512000004",
   },
   {
     icon: Mail,
