@@ -46,8 +46,8 @@ const Contact = () => {
               <item.icon size={20} className="text-primary-foreground" />
             </div>
             <div>
-              <p className="font-display font-bold text-lg">{item.label}</p>
-              <p className="text-muted-foreground text-sm text-right" dir="ltr">{item.value}</p>
+              <p className="font-display font-bold text-lg text-primary-foreground">{item.label}</p>
+              <p className="text-primary-foreground/70 text-sm text-right" dir="ltr">{item.value}</p>
             </div>
           </a>
         ))}
