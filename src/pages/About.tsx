@@ -1,11 +1,8 @@
-import logo from '@/assets/logo.jpg';
+
 
 const About = () => {
   return (
-    <div dir="rtl" className="min-h-screen relative" style={{ backgroundColor: '#445669' }}>
-      <div className="absolute inset-0">
-        <img src={logo} alt="" className="w-full h-full object-cover opacity-10" />
-      </div>
+    <div dir="rtl" className="min-h-screen relative" style={{ backgroundColor: '#4A6274' }}>
       <div className="container py-16 max-w-3xl relative z-10">
       <h1 className="text-4xl font-display font-bold mb-8 text-center text-primary-foreground">קצת על המועדון</h1>
       <div className="h-1 w-20 bg-gold mx-auto mb-12 rounded-full" />
