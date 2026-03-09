@@ -1,7 +1,7 @@
 import { Instagram, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => (
-  <footer className="bg-primary text-primary-foreground py-10 mt-16" dir="rtl">
+  <footer className="text-primary-foreground py-10 mt-16" dir="rtl" style={{ backgroundColor: '#2A3F4D' }}>
     <div className="container text-center space-y-4">
       <h3 className="font-display text-xl font-bold">מועדון השחמט ע״ש עקיבא רובינשטיין – ירושלים</h3>
       <div className="flex items-center justify-center gap-6 text-sm">
