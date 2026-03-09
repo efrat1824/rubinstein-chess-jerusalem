@@ -13,7 +13,7 @@ const Index = () => {
         <div className="relative z-10 text-center space-y-8 px-4 animate-fade-in">
           <img src={logo} alt="לוגו מועדון רובינשטיין" className="w-40 h-40 mx-auto object-contain rounded-full shadow-2xl" />
           <h1 className="text-4xl md:text-6xl font-display font-bold text-primary-foreground leading-tight">
-            מועדון השחמט<br />ע״ש עקיבא רובינשטיין
+            מועדון השחמט<br />ע״ש עקיבא רובינשטיין ז"ל
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/80 max-w-xl mx-auto">
             הבית שלכם לאסטרטגיה ומחשבה – ירושלים
@@ -40,6 +40,31 @@ const Index = () => {
               <p className="text-muted-foreground text-sm leading-relaxed">{item.desc}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Reviews Section - ביקורות */}
+      <section className="py-20 bg-secondary/10 relative overflow-hidden">
+        <div className="container mx-auto px-4 text-center">
+          <div className="max-w-3xl mx-auto space-y-6">
+            <h2 className="text-3xl md:text-5xl font-bold text-primary">
+              ביקרתם? נהניתם? <br />
+              <span className="text-gold">נשמח לשמוע איך היה!</span>
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              המשוב שלכם עוזר לנו להשתפר ולהמשיך להיות הבית של השחמטאים בירושלים.
+            </p>
+            <div className="pt-4">
+              <a 
+                href="https://www.google.com/maps/place//data=!4m3!3m2!1s0x1502d708e9544503:0x28973621494f04bd!12e1?source=g.page.m.ia._&laa=nmx-review-solicitation-ia2" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-primary text-primary-foreground font-bold text-lg px-10 py-4 rounded-full shadow-lg hover:scale-105 transition-transform"
+              >
+                לחצו כאן לכתיבת ביקורת בגוגל ⭐
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </div>
