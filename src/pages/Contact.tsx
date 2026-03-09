@@ -30,7 +30,7 @@ const contactItems = [
 const Contact = () => {
   return (
     <div dir="rtl" className="container py-16 max-w-2xl">
-      <h1 className="text-4xl font-display font-bold mb-8 text-center">צור קשר</h1>
+      <h1 className="text-4xl font-display font-bold mb-8 text-center">פרטים ויצירת קשר</h1>
       <div className="h-1 w-20 bg-gold mx-auto mb-12 rounded-full" />
 
       <div className="space-y-6">

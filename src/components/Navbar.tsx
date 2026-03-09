@@ -7,7 +7,7 @@ const navLinks = [
   { to: "/", label: "דף הבית" },
   { to: "/about", label: "אודות" },
   { to: "/gallery", label: "גלריה" },
-  { to: "/contact", label: "צור קשר" },
+  { to: "/contact", label: "פרטים ויצירת קשר" },
 ];
 
 const Navbar = () => {
