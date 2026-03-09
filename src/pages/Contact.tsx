@@ -1,4 +1,4 @@
-import { Phone, Mail, Instagram } from "lucide-react";
+import { Phone, Mail, Instagram, MapPin } from "lucide-react";
 
 const contactItems = [
   {
@@ -18,6 +18,12 @@ const contactItems = [
     label: "אינסטגרם",
     value: "@rubinsteinclub",
     href: "https://www.instagram.com/rubinsteinclub/?utm_source=ig_web_button_share_sheet",
+  },
+  {
+    icon: MapPin,
+    label: "כתובת",
+    value: "יפו 105, ירושלים",
+    href: "https://maps.google.com/?q=יפו+105+ירושלים",
   },
 ];
 
