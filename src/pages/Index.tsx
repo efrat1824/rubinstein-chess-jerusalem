@@ -18,6 +18,12 @@ const Index = () => {
           <p className="text-lg md:text-xl text-primary-foreground/80 max-w-xl mx-auto">
             הבית שלכם לאסטרטגיה ומחשבה – ירושלים
           </p>
+          <a
+            href="tel:0512000004"
+            className="inline-block mt-4 text-lg font-display font-bold text-gold hover:text-gold/80 transition-colors underline underline-offset-4"
+          >
+            📞 לפרטים: 051-200-0004
+          </a>
         </div>
       </section>
 
