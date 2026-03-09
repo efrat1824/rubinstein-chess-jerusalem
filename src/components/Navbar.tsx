@@ -28,8 +28,8 @@ const Navbar = () => {
             <Link
               key={link.to}
               to={link.to}
-              className={`text-sm font-medium transition-colors hover:text-gold ${
-                location.pathname === link.to ? "text-gold" : "text-foreground"
+              className={`text-sm transition-colors hover:text-gold ${
+                location.pathname === link.to ? "text-gold font-bold" : "text-foreground font-medium"
               }`}
             >
               {link.label}
@@ -51,8 +51,8 @@ const Navbar = () => {
               key={link.to}
               to={link.to}
               onClick={() => setOpen(false)}
-              className={`block px-6 py-3 text-sm font-medium transition-colors hover:text-gold ${
-                location.pathname === link.to ? "text-gold" : "text-foreground"
+              className={`block px-6 py-3 text-sm transition-colors hover:text-gold ${
+                location.pathname === link.to ? "text-gold font-bold" : "text-foreground font-medium"
               }`}
             >
               {link.label}
