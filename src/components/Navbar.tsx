@@ -6,7 +6,7 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { to: "/", label: "דף הבית" },
   { to: "/about", label: "אודות" },
-  { to: "/gallery", label: "גלריה" },
+  { to: "/gallery", label: "רגעים מהמועדון" },
   { to: "/contact", label: "פרטים ויצירת קשר" },
 ];
 
