@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b" dir="rtl">
       <div className="container flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-3">
-          <img src={logo} alt="לוגו מועדון רובינשטיין" className="h-12 w-12 object-contain" />
+          <img src={logo} alt="לוגו מועדון רובינשטיין" className="h-12 w-12 object-contain rounded-full" />
           <span className="font-display text-lg font-bold hidden sm:block">מועדון השחמט רובינשטיין</span>
         </Link>
 
