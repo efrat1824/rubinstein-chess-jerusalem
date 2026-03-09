@@ -26,11 +26,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Gradient transition */}
-      <div className="h-24 bg-gradient-to-b from-primary to-background" />
-
       {/* Features */}
-      <section className="container py-16">
+      <section className="container py-20">
         <div className="grid md:grid-cols-3 gap-8 text-center">
           {[
             { title: "חוגים ואימונים", desc: "חוגים מסודרים לכל הגילאים ואימונים אישיים עם מאמנים מקצועיים" },
