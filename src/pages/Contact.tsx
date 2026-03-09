@@ -8,12 +8,6 @@ const contactItems = [
     href: "tel:0512000004",
   },
   {
-    icon: MessageCircle,
-    label: "וואטסאפ",
-    value: "051-200-0004",
-    href: "https://wa.me/972512000004",
-  },
-  {
     icon: Mail,
     label: "אימייל",
     value: "rubinstein.chess.jerusalem@gmail.com",
