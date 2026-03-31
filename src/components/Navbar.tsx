@@ -7,6 +7,7 @@ const navLinks = [
   { to: "/", label: "דף הבית" },
   { to: "/about", label: "אודות" },
   { to: "/gallery", label: "רגעים מהמועדון" },
+  { to: "/events", label: "תחרויות ואירועים מיוחדים" },
   { to: "/contact", label: "פרטים ויצירת קשר" },
 ];
 
