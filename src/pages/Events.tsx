@@ -132,12 +132,16 @@ const Events = () => {
               </div>
             </div>
             <div className="mt-8">
-              <a href="#" className="text-primary font-bold text-base underline underline-offset-8 decoration-1 hover:text-gold transition-colors inline-flex items-center gap-2">
+              <a
+                href="https://www.chess.org.il/Clubs/Club.aspx?Id=2413&View=TournamentsCompleted"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary font-bold text-base underline underline-offset-8 decoration-1 hover:text-gold transition-colors inline-flex items-center gap-2"
+              >
                 לצפייה בהיסטוריית התחרויות ←
               </a>
             </div>
           </div>
-
           {/* התחרות הבאה */}
           <div className="bg-primary p-10 rounded-3xl text-primary-foreground shadow-2xl flex flex-col justify-between relative overflow-hidden group col-span-1">
             <div className="absolute -top-10 -left-10 w-32 h-32 bg-white/5 rounded-full blur-3xl" />
