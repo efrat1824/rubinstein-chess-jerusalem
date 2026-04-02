@@ -1,12 +1,17 @@
 import logo from "@/assets/logo.jpg";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import photo1 from '../assets/gallery/gallery-2.jpg';
+import photo2 from '../assets/gallery/gallery-8.jpg';
+import photo3 from '../assets/gallery/gallery-5.jpg';
+import photo4 from '../assets/gallery/gallery-11.jpg';
 
 const Index = () => {
   return (
     <div dir="rtl">
       {/* Hero */}
       <section className="relative min-h-[80vh] flex items-center justify-center bg-primary overflow-hidden">
+
         <div className="absolute inset-0 opacity-10">
           <img src={logo} alt="" className="w-full h-full object-cover" />
         </div>
@@ -93,7 +98,44 @@ const Index = () => {
           </div>
         </div>
       </section>
+      {/* Gallery Ribbon Teaser - גרסה רספונסיבית ללא חיתוך */}
+      <section className="bg-[#F5F2EA] py-12 border-y border-gray-200">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
 
+            {/* צד ימין: טקסט וכפתור */}
+            <div className="w-full lg:w-1/3 text-right">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#2D3E50] mb-2 font-display">הגלריה שלנו</h2>
+              <p className="text-gray-600 mb-6 text-base md:text-lg">טעימה קטנה מהאווירה והרגעים המיוחדים במועדון.</p>
+
+              <Link
+                to="/gallery"
+                className="inline-flex items-center gap-3 bg-[#D4AF37] text-[#2D3E50] px-6 py-3 rounded-full font-bold shadow-md hover:bg-[#2D3E50] hover:text-white transition-all duration-300 no-underline whitespace-nowrap"
+              >
+                <span>לכל התמונות בגלריה</span>
+                <span className="text-xl">←</span>
+              </Link>
+            </div>
+
+            {/* צד שמאל: שורת תמונות שמתכווצת (Flex Container) */}
+            <div className="w-full lg:w-2/3 flex flex-nowrap justify-between gap-2 md:gap-4">
+              {[photo1, photo2, photo3, photo4].map((img, index) => (
+                <div
+                  key={index}
+                  className="flex-1 min-w-0 aspect-square rounded-xl md:rounded-2xl overflow-hidden shadow-sm border-2 border-white hover:-translate-y-1 transition-transform duration-300"
+                >
+                  <img
+                    src={img}
+                    alt={`Gallery preview ${index}`}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              ))}
+            </div>
+
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
