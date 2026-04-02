@@ -18,11 +18,14 @@ const Index = () => {
           <p className="text-lg md:text-xl text-primary-foreground/80 max-w-xl mx-auto">
             הבית שלכם לאסטרטגיה ומחשבה – ירושלים
           </p>
-          <a href="tel:0512000004" className="mt-8 inline-block">
-            <Button size="lg" className="bg-gold text-primary font-display font-bold text-2xl px-12 py-8 hover:bg-gold/85 shadow-[0_0_30px_rgba(212,175,55,0.4)] border-2 border-gold/50 tracking-wide">
-              דברו איתנו
+          <Link to="/contact" className="mt-8 inline-block no-underline">
+            <Button
+              size="lg"
+              className="bg-gold text-primary font-display font-bold text-2xl px-12 py-8 hover:bg-gold/85 shadow-[0_0_30px_rgba(212,175,55,0.4)] border-2 border-gold/50 tracking-wide"
+            >
+              פרטים ויצירת קשר
             </Button>
-          </a>
+          </Link>
         </div>
       </section>
 
