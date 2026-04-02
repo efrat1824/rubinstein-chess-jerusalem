@@ -30,15 +30,38 @@ const Index = () => {
       <section className="container py-20">
         <div className="grid md:grid-cols-3 gap-8 text-center">
           {[
-            { title: "חוגים ואימונים", desc: "חוגים מסודרים לכל הגילאים ואימונים אישיים עם מאמנים מקצועיים", icon: "♗" },
-            { title: "תחרויות", desc: "תחרויות מקומיות וארציות, מפגשי שחמט חופשי ומשחקים ידידותיים", icon: "♖" },
-            { title: "קהילה", desc: "קהילה תוססת של שחקנים, חובבים וסקרנים מכל הגילאים והרמות", icon: "♞" },
+            {
+              title: "חוגים ואימונים",
+              desc: "חוגים מסודרים לכל הגילאים ואימונים אישיים עם מאמנים מקצועיים",
+              icon: "♗",
+              path: "/classes" // הנתיב שיצרנו קודם
+            },
+            {
+              title: "תחרויות",
+              desc: "תחרויות מקומיות וארציות, מפגשי שחמט חופשי ומשחקים ידידותיים",
+              icon: "♖",
+              path: "/events"
+            },
+            {
+              title: "קהילה",
+              desc: "קהילה תוססת של שחקנים, חובבים וסקרנים מכל הגילאים והרמות",
+              icon: "♞",
+              path: "/about"
+            },
           ].map((item) => (
-            <div key={item.title} className="bg-card p-8 rounded-lg border hover:shadow-lg transition-shadow">
-              <div className="text-5xl mb-4 text-primary">{item.icon}</div>
-              <h3 className="font-display text-xl font-bold mb-3">{item.title}</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">{item.desc}</p>
-            </div>
+            <Link
+              key={item.title}
+              to={item.path}
+              className="block group no-underline text-inherit"
+            >
+              <div className="bg-card p-8 rounded-lg border hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full">
+                <div className="text-5xl mb-4 text-primary group-hover:scale-110 transition-transform duration-300">
+                  {item.icon}
+                </div>
+                <h3 className="font-display text-xl font-bold mb-3">{item.title}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            </Link>
           ))}
         </div>
       </section>
