@@ -72,10 +72,7 @@ const Classes = () => {
                             חוגים בקבוצות קטנות המחולקות לפי רמות: מתחילים, מתקדמים ונבחרת המועדון.
                             כל תלמיד מקבל יחס אישי ותוכנית התקדמות מובנית המשלבת טקטיקה, אסטרטגיה ומשחקי אימון מבוקרים.
                         </p>
-                        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div className="bg-[#F5F2EA] py-3 rounded-xl font-bold text-[#2D3E50] text-center border border-[#D4AF37]/20">שיעורים קבוצתיים</div>
-                            <div className="bg-[#F5F2EA] py-3 rounded-xl font-bold text-[#2D3E50] text-center border border-[#D4AF37]/20">הכנה למבחני דרגה</div>
-                        </div>
+
                     </div>
                 </section>
 
