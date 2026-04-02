@@ -8,6 +8,7 @@ const navLinks = [
   { to: "/about", label: "אודות" },
   { to: "/gallery", label: "רגעים מהמועדון" },
   { to: "/events", label: "תחרויות ואירועים מיוחדים" },
+  { to: "/classes", label: "חוגים ואימונים בשחמט" },
   { to: "/contact", label: "פרטים ויצירת קשר" },
 ];
 
@@ -29,9 +30,8 @@ const Navbar = () => {
             <Link
               key={link.to}
               to={link.to}
-              className={`text-sm transition-colors hover:text-gold ${
-                location.pathname === link.to ? "text-gold font-bold" : "text-foreground font-medium"
-              }`}
+              className={`text-sm transition-colors hover:text-gold ${location.pathname === link.to ? "text-gold font-bold" : "text-foreground font-medium"
+                }`}
             >
               {link.label}
             </Link>
@@ -52,9 +52,8 @@ const Navbar = () => {
               key={link.to}
               to={link.to}
               onClick={() => setOpen(false)}
-              className={`block px-6 py-3 text-sm transition-colors hover:text-gold ${
-                location.pathname === link.to ? "text-gold font-bold" : "text-foreground font-medium"
-              }`}
+              className={`block px-6 py-3 text-sm transition-colors hover:text-gold ${location.pathname === link.to ? "text-gold font-bold" : "text-foreground font-medium"
+                }`}
             >
               {link.label}
             </Link>
