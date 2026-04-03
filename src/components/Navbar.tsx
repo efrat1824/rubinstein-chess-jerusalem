@@ -10,6 +10,7 @@ const navLinks = [
   { to: "/events", label: "תחרויות ואירועים מיוחדים" },
   { to: "/classes", label: "חוגים ואימונים בשחמט" },
   { to: "/contact", label: "פרטים ויצירת קשר" },
+  { to: "/join", label: "הצטרפו אלינו" },
 ];
 
 const Navbar = () => {
