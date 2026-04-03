@@ -1,6 +1,7 @@
 import logo from "@/assets/logo.jpg";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { FaUsers } from 'react-icons/fa';
 import photo1 from '../assets/gallery/gallery-2.jpg';
 import photo2 from '../assets/gallery/gallery-8.jpg';
 import photo3 from '../assets/gallery/gallery-5.jpg';
@@ -98,6 +99,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+
       {/* Gallery Ribbon Teaser - גרסה רספונסיבית ללא חיתוך */}
       <section className="bg-[#F5F2EA] py-12 border-y border-gray-200">
         <div className="container mx-auto px-4 max-w-6xl">
@@ -133,6 +135,32 @@ const Index = () => {
               ))}
             </div>
 
+
+            {/* Community Call-to-Action - להוסיף מעל ה-Footer בדף הבית */}
+            <section className="bg-[#2D3E50] py-20 px-4 text-center border-t border-white/5">
+              <div className="container mx-auto max-w-4xl">
+
+                {/* אייקון קהילה עליון */}
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gold/10 rounded-full mb-6">
+                  <FaUsers className="text-gold w-8 h-8" />
+                </div>
+
+                <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-6">
+                  הצטרפו לקהילת השחמט שלנו
+                </h2>
+
+
+                {/* כפתור בולט שמוביל לעמוד שבנינו */}
+                <Link
+                  to="/join"
+                  className="inline-flex items-center gap-3 bg-gold text-[#2D3E50] px-10 py-4 rounded-full font-bold text-xl shadow-2xl hover:scale-105 hover:bg-white transition-all duration-300 no-underline"
+                >
+                  <span>לכל ערוצי הקהילה</span>
+                  <span className="text-2xl">←</span>
+                </Link>
+
+              </div>
+            </section>
           </div>
         </div>
       </section>

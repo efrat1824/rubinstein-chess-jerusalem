@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaWhatsapp, FaInstagram, FaFacebook, FaTrophy } from 'react-icons/fa';
+import { SiChessdotcom } from 'react-icons/si'; // אייקון רשמי של Chess.com
 
 const JoinUs = () => {
     const socialLinks = [
@@ -20,9 +21,16 @@ const JoinUs = () => {
         {
             name: "פייסבוק",
             desc: "עדכונים שוטפים ופוסטים קהילתיים",
-            link: "https://www.facebook.com/p/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F-%D7%94%D7%A9%D7%97%D7%9E%D7%98-%D7%A2%D7%9C-%D7%A9%D7%9D-%D7%A8%D7%95%D7%91%D7%99%D7%A0%D7%A9%D7%98%D7%99%D7%99%D7%9F-61583184395990/",
+            link: "https://www.facebook.com/p/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F-%D7%94%D7%A9%D7%97%D7%9E%D7%98-%D7%A2%D7%9C-%D7%A9%D7%9D-%D7%A8%D7%95%D7%9比%D7%A0%D7%A9%D7%92%D7%99%D7%99%D7%9F-61583184395990/",
             icon: <FaFacebook className="w-10 h-10 text-[#1877F2]" />,
             hoverBorder: "hover:border-[#1877F2]"
+        },
+        {
+            name: "Chess.com",
+            desc: "הצטרפו לנבחרת המועדון למשחקים וטורנירים אונליין",
+            link: "https://www.chess.com/clubs/about/mv-dvn-rvbynshtyyn",
+            icon: <SiChessdotcom className="w-10 h-10 text-[#81B64C]" />,
+            hoverBorder: "hover:border-[#81B64C]"
         },
         {
             name: "המועדון באיגוד השחמט",
