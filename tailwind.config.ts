@@ -81,11 +81,29 @@ export default {
           from: { opacity: "0", transform: "translateY(20px)" },
           to: { opacity: "1", transform: "translateY(0)" },
         },
+        // האנימציות החדשות שהוספנו:
+        'prominent-pulse': {
+          '0%, 100%': { opacity: '1', transform: 'scale(1)', background: 'rgba(212, 175, 55, 0.3)' },
+          '50%': { opacity: '0.4', transform: 'scale(1.1)', background: 'rgba(212, 175, 55, 0.8)' },
+        },
+        'breathing-gold': {
+          '0%, 100%': {
+            boxShadow: '0 0 10px 0px rgba(212, 175, 55, 0.3)',
+            borderColor: 'rgba(212, 175, 55, 0.3)'
+          },
+          '50%': {
+            boxShadow: '0 0 35px 10px rgba(212, 175, 55, 0.6)',
+            borderColor: 'rgba(212, 175, 55, 0.9)'
+          },
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in": "fade-in 0.6s ease-out forwards",
+        // שמות האנימציות לשימוש בקוד:
+        'prominent-pulse': 'prominent-pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'breathing-gold': 'breathing-gold 3s ease-in-out infinite',
       },
     },
   },
