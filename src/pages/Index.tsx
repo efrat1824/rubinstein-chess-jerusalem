@@ -2,14 +2,79 @@ import logo from "@/assets/logo.jpg";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { FaUsers } from 'react-icons/fa';
+import { useState, useEffect } from "react"; // הוסיפי את אלו
+import { X, Trophy, Star, Calendar } from "lucide-react"; // הוסיפי את האייקונים האלו
 import photo1 from '../assets/gallery/gallery-2.jpg';
 import photo2 from '../assets/gallery/gallery-8.jpg';
 import photo3 from '../assets/gallery/gallery-5.jpg';
 import photo4 from '../assets/gallery/gallery-11.jpg';
 
+
 const Index = () => {
+  const [showTournamentModal, setShowTournamentModal] = useState(false);
+
+  useEffect(() => {
+    // בדיקה ב-sessionStorage כדי למנוע הצפה של המשתמש
+    const hasSeenPopup = sessionStorage.getItem("hasSeenTournamentPopup");
+
+    if (!hasSeenPopup) {
+      const timer = setTimeout(() => {
+        setShowTournamentModal(true);
+        sessionStorage.setItem("hasSeenTournamentPopup", "true");
+      }, 1500);
+      return () => clearTimeout(timer);
+    }
+  }, []);
   return (
     <div dir="rtl">
+      {/* --- Tournament Modal Layer --- */}
+      {showTournamentModal && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+          <div
+            className="absolute inset-0 bg-black/80 backdrop-blur-md animate-in fade-in duration-500"
+            onClick={() => setShowTournamentModal(false)}
+          />
+
+          <div className="relative bg-[#2A3F4D] w-full max-w-lg rounded-[2.5rem] border-2 border-gold/50 shadow-[0_0_50px_rgba(212,175,55,0.4)] overflow-hidden animate-in zoom-in-95 duration-300 text-center space-y-6 p-8 md:p-12">
+            <button
+              onClick={() => setShowTournamentModal(false)}
+              className="absolute top-6 left-6 text-white/50 hover:text-gold transition-colors z-20"
+            >
+              <X size={28} />
+            </button>
+
+            <div className="inline-flex items-center gap-2 bg-gold/20 text-gold px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest animate-pulse">
+              <Star size={14} fill="currentColor" /> אירוע הדגל
+            </div>
+
+            <div className="space-y-2">
+              <h3 className="text-3xl md:text-4xl font-display font-black text-white">אליפות ירושלים</h3>
+              <p className="text-gold text-2xl font-bold">בשחמט 2026</p>
+            </div>
+
+            <div className="flex flex-col items-center gap-3 text-white/90 bg-white/5 py-4 rounded-2xl border border-white/10">
+              <div className="flex items-center gap-2 font-bold text-lg">
+                <Calendar className="text-gold" size={20} />
+                <span>18-19 במאי, 2026</span>
+              </div>
+              <div className="flex items-center gap-2 font-bold">
+                <Trophy className="text-gold" size={20} />
+                <span>קרן פרסים: 70,000 ש"ח</span>
+              </div>
+            </div>
+
+            <p className="text-white/70 text-lg leading-relaxed">
+              הירשמו עכשיו והבטיחו את מקומכם בתחרות הגדולה ביותר שנראתה בעיר!
+            </p>
+
+            <Link to="/events" onClick={() => setShowTournamentModal(false)} className="block no-underline">
+              <button className="w-full bg-gold text-primary font-black py-4 rounded-xl text-xl shadow-lg hover:scale-105 transition-all animate-breathing-gold">
+                לפרטים מלאים והרשמה
+              </button>
+            </Link>
+          </div>
+        </div>
+      )}
       {/* Hero */}
       <section className="relative min-h-[80vh] flex items-center justify-center bg-primary overflow-hidden">
 
