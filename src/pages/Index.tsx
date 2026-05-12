@@ -2,8 +2,8 @@ import logo from "@/assets/logo.jpg";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { FaUsers } from 'react-icons/fa';
-import { useState, useEffect } from "react"; // הוסיפי את אלו
-import { X, Trophy, Star, Calendar } from "lucide-react"; // הוסיפי את האייקונים האלו
+import { useState, useEffect } from "react";
+import { X, Trophy, Star, Calendar } from "lucide-react";
 import photo1 from '../assets/gallery/gallery-2.jpg';
 import photo2 from '../assets/gallery/gallery-8.jpg';
 import photo3 from '../assets/gallery/gallery-5.jpg';
@@ -64,12 +64,12 @@ const Index = () => {
             </div>
 
             <p className="text-white/70 text-lg leading-relaxed">
-              הירשמו עכשיו והבטיחו את מקומכם בתחרות הגדולה ביותר שנראתה בעיר!
+              ההרשמה הסתיימה!
             </p>
 
             <Link to="/events" onClick={() => setShowTournamentModal(false)} className="block no-underline">
               <button className="w-full bg-gold text-primary font-black py-4 rounded-xl text-xl shadow-lg hover:scale-105 transition-all animate-breathing-gold">
-                לפרטים מלאים והרשמה
+                לפרטים מלאים
               </button>
             </Link>
           </div>

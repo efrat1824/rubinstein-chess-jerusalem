@@ -53,7 +53,7 @@ const Events = () => {
                     </h3>
 
                     <p className="text-lg md:text-xl text-white/80 mb-8 max-w-xl leading-relaxed">
-                      אירוע השחמט הגדול של ירושלים. בוא להיות חלק בתחרות ענק בהשתתפות רבי אומנים מכל העולם, הזדמנות לפגוש על הלוח את צמרת השחמט הבינלאומית. בנוסף פרסים בשווי עשרות אלפי שקלים , אירוע בסדר גדול מטורף שאין מצב להפסיד, מחכים לראותכם על הלוח - מועדון השחמט הירושלמי ע"ש עקיבא רובינשטיין ז"ל
+                      אירוע השחמט הגדול של ירושלים. בואו להיות חלק בתחרות ענק בהשתתפות רבי אומנים מכל העולם, הזדמנות לפגוש על הלוח את צמרת השחמט הבינלאומית. בנוסף פרסים בשווי עשרות אלפי שקלים, אירוע בסדר גדול מטורף שאין מצב להפסיד, מחכים לראותכם על הלוח - מועדון השחמט הירושלמי ע"ש עקיבא רובינשטיין ז"ל
                     </p>
 
                     {/* שורת פרטים מהירים עם אייקונים */}
@@ -87,7 +87,7 @@ const Events = () => {
                       rel="noopener noreferrer"
                       className="group/btn relative inline-block w-full bg-gold text-primary-foreground px-8 py-5 rounded-2xl font-black text-2xl hover:scale-105 transition-all shadow-[0_0_20px_rgba(212,175,55,0.3)] hover:shadow-[0_0_30px_rgba(212,175,55,0.5)] active:scale-95 text-center overflow-hidden"
                     >
-                      <span className="relative z-10">לפרטים והרשמה </span>
+                      <span className="relative z-10"> ההרשמה הסתיימה! </span>
                       <div className="absolute inset-0 bg-white/20 translate-y-full group-hover/btn:translate-y-0 transition-transform duration-300" />
                     </a>
 
@@ -155,7 +155,7 @@ const Events = () => {
 
                 <h3 className="text-2xl md:text-3xl font-bold text-primary mb-8 border-r-4 border-gold pr-4 font-display">
 
-                  תחרות מוצ"ש ויקרא - <span className="text-base md:text-lg text-muted-foreground font-sans font-medium italic">21/03/2026</span>
+                  הכנה לאליפות ירושלים הפתוחה בשח מהיר <span className="text-base md:text-lg text-muted-foreground font-sans font-medium italic">30/04/2026</span>
 
                 </h3>
 
@@ -169,7 +169,7 @@ const Events = () => {
 
                     <span className="text-4xl">🥇</span>
 
-                    <span className="text-2xl md:text-3xl font-black text-primary tracking-tight">ניר שאולקר</span>
+                    <span className="text-2xl md:text-3xl font-black text-primary tracking-tight">אייל פרידליך </span>
 
                   </div>
 
@@ -181,7 +181,7 @@ const Events = () => {
 
                     <span className="text-3xl">🥈</span>
 
-                    <span className="text-xl md:text-2xl font-bold text-primary/90">עקיבא שוורץ</span>
+                    <span className="text-xl md:text-2xl font-bold text-primary/90">יהודה גמרי</span>
 
                   </div>
 
@@ -193,7 +193,7 @@ const Events = () => {
 
                     <span className="text-3xl">🥉</span>
 
-                    <span className="text-xl md:text-2xl font-bold text-primary/80">מנחם קרליבך</span>
+                    <span className="text-xl md:text-2xl font-bold text-primary/80">דניאל מוסקוביץ </span>
 
                   </div>
 
