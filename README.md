@@ -1,90 +1,87 @@
-# Rubinstein Chess Club — Jerusalem
+# Rubinstein Chess Club | Jerusalem
 
-A live website for **Rubinstein Chess Club in Jerusalem**, designed to help players and families discover the club's activities, explore chess classes and events, and find ways to get involved.
+**A live, Hebrew-language website for the Rubinstein Chess Club in Jerusalem.** The website helps players, parents, and visitors explore the club's activities, discover chess classes and tournaments, and get in touch with the club.
 
-**[Visit the live website](https://rubinstein-chess-jerusalem.org.il/)**
+**[Visit the live website](https://rubinstein-chess-jerusalem.org.il/)** · **[GitHub repository](https://github.com/efrat1824/rubinstein-chess-jerusalem)** (currently private)
 
-## Overview
+## Project overview
 
-This is a real-world, deployed front-end project developed and maintained for a community chess club. The site brings together key club information in one accessible place and is updated as the club's needs evolve.
+This is a real-world, deployed front-end application built for a community chess club. It organizes information about the club in a responsive, right-to-left (RTL) experience, with multiple pages and navigation suitable for desktop and mobile devices.
 
-## Main sections
+## Main features
 
-- **Home** — introduction to the club and its activities.
-- **About** — information about the club.
-- **Classes** — information about chess learning opportunities.
-- **Events** — club activities and events.
-- **Gallery** — photos from the club and its community.
-- **Join Us** — information for prospective members.
-- **Contact** — ways to reach the club.
+- **Multi-page navigation:** Home, About, Classes, Events, Gallery, Join Us, and Contact pages.
+- **Hebrew and RTL layout:** Content and navigation are designed for Hebrew-speaking visitors.
+- **Responsive interface:** Layouts and navigation adapt to smaller screens, including a mobile menu.
+- **Chess club content:** Information about classes, activities, events, and the club community.
+- **Photo gallery:** Images showcasing the club's activities.
+- **Contact and registration information:** Ways for interested visitors to reach the club and learn about joining.
 
 ## Tech stack
 
 | Area | Technologies |
 | --- | --- |
 | Front end | React, TypeScript |
-| Development/build | Vite |
+| Build and development | Vite |
 | Styling | Tailwind CSS |
-| UI components | shadcn/ui, Radix UI |
+| UI | shadcn/ui, Radix UI, Lucide React |
 | Routing | React Router |
 | Deployment | Vercel |
-| Version control | Git and GitHub |
+| Version control | Git, GitHub |
+| Test tooling | Vitest, React Testing Library |
 
-## Getting started
+## Run locally
 
-**Requirements:** Node.js and npm.
+**Prerequisites:** Node.js and npm installed; access to this GitHub repository while it is private.
 
 ```bash
-# Clone the repository (replace with the repository URL)
-git clone <REPOSITORY_URL>
+git clone https://github.com/efrat1824/rubinstein-chess-jerusalem.git
 cd rubinstein-chess-jerusalem
-
-# Install dependencies
-npm install
-
-# Start the development server
+npm ci
 npm run dev
 ```
 
-Vite prints the local development URL after startup.
+Open **http://localhost:8080/** in your browser. The development server port is configured in `vite.config.ts`.
 
-### Useful commands
+### Available commands
 
-```bash
-npm run build       # Build for production
-npm run preview     # Preview the production build locally
-npm run lint        # Run ESLint
-npm run test        # Run the existing Vitest test suite
-```
-
-> **Testing note:** The repository currently includes an example test. Meaningful automated tests for club-specific functionality are planned and are not yet claimed as completed.
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Create a production build |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
+| `npm run test` | Run the Vitest test suite once |
+| `npm run test:watch` | Run Vitest in watch mode |
 
 ## Project structure
 
 ```text
 src/
-  pages/          # Home, About, Classes, Events, Gallery, Join Us, Contact
-  components/     # Shared layout and UI components
-  assets/         # Images and other project assets
-  hooks/          # Reusable React hooks
+  pages/          # Main route components
+  components/     # Navigation, footer, and reusable UI
+  assets/         # Site images and media
+  hooks/          # Custom React hooks
   lib/            # Shared utilities
-  test/           # Test setup and sample tests
-public/           # Public static files
-vercel.json       # Deployment configuration
+  test/           # Vitest setup and example test
+public/           # Static assets
+vite.config.ts     # Vite configuration and local server port
+vitest.config.ts   # Test configuration
+vercel.json        # SPA routing configuration for deployment
 ```
+
+## Testing and deployment
+
+The project includes Vitest configuration and an initial example test. These files establish a starting point for automated testing; they do **not** represent comprehensive coverage of the website's functionality.
+
+The application is deployed on **Vercel**. The `vercel.json` configuration provides a rewrite to support client-side routes in the React single-page application.
 
 ## Development and maintenance
 
-The website was deployed to production using Vercel and has continued to evolve through iterative development in Visual Studio Code, with changes tracked in GitHub.
-
-## Next improvements
-
-- Add meaningful automated tests for navigation and key pages.
-- Review accessibility, mobile usability, and performance.
-- Continue improving content organization and maintainability.
+After the initial prototype, I continued developing, customizing, and maintaining the website in **Visual Studio Code**, tracking changes with **Git and GitHub**, and managing the production deployment through **Vercel**.
 
 ## Maintainer
 
-**Efrat Cohen** — [GitHub profile](https://github.com/efrat1824)
+**Efrat Cohen** · [GitHub](https://github.com/efrat1824)
 
-> Project website, photography, and club-related content may have separate ownership or usage rights. Confirm permission before republishing assets or making the full source repository public.
+*Note: Club branding, photographs, and website content may have separate ownership or usage permissions. Confirm those permissions before making the repository public or reusing its assets.*
