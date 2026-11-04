@@ -1,73 +1,90 @@
-# Welcome to your Lovable project
+# Rubinstein Chess Club — Jerusalem
 
-## Project info
+A live website for **Rubinstein Chess Club in Jerusalem**, designed to help players and families discover the club's activities, explore chess classes and events, and find ways to get involved.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**[Visit the live website](https://rubinstein-chess-jerusalem.org.il/)**
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+This is a real-world, deployed front-end project developed and maintained for a community chess club. The site brings together key club information in one accessible place and is updated as the club's needs evolve.
 
-**Use Lovable**
+## Main sections
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Home** — introduction to the club and its activities.
+- **About** — information about the club.
+- **Classes** — information about chess learning opportunities.
+- **Events** — club activities and events.
+- **Gallery** — photos from the club and its community.
+- **Join Us** — information for prospective members.
+- **Contact** — ways to reach the club.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tech stack
 
-**Use your preferred IDE**
+| Area | Technologies |
+| --- | --- |
+| Front end | React, TypeScript |
+| Development/build | Vite |
+| Styling | Tailwind CSS |
+| UI components | shadcn/ui, Radix UI |
+| Routing | React Router |
+| Deployment | Vercel |
+| Version control | Git and GitHub |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Requirements:** Node.js and npm.
 
-Follow these steps:
+```bash
+# Clone the repository (replace with the repository URL)
+git clone <REPOSITORY_URL>
+cd rubinstein-chess-jerusalem
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Vite prints the local development URL after startup.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Useful commands
 
-**Use GitHub Codespaces**
+```bash
+npm run build       # Build for production
+npm run preview     # Preview the production build locally
+npm run lint        # Run ESLint
+npm run test        # Run the existing Vitest test suite
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+> **Testing note:** The repository currently includes an example test. Meaningful automated tests for club-specific functionality are planned and are not yet claimed as completed.
 
-## What technologies are used for this project?
+## Project structure
 
-This project is built with:
+```text
+src/
+  pages/          # Home, About, Classes, Events, Gallery, Join Us, Contact
+  components/     # Shared layout and UI components
+  assets/         # Images and other project assets
+  hooks/          # Reusable React hooks
+  lib/            # Shared utilities
+  test/           # Test setup and sample tests
+public/           # Public static files
+vercel.json       # Deployment configuration
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Development and maintenance
 
-## How can I deploy this project?
+The website was deployed to production using Vercel and has continued to evolve through iterative development in Visual Studio Code, with changes tracked in GitHub.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## Next improvements
 
-## Can I connect a custom domain to my Lovable project?
+- Add meaningful automated tests for navigation and key pages.
+- Review accessibility, mobile usability, and performance.
+- Continue improving content organization and maintainability.
 
-Yes, you can!
+## Maintainer
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+**Efrat Cohen** — [GitHub profile](https://github.com/efrat1824)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+> Project website, photography, and club-related content may have separate ownership or usage rights. Confirm permission before republishing assets or making the full source repository public.
