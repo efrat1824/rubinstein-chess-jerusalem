@@ -83,7 +83,7 @@ vercel.json        # SPA routing configuration for deployment
 
 ## Testing and deployment
 
-The project includes Vitest and React Testing Library for automated testing, with initial test configuration and further test coverage planned.
+The project uses Vitest and React Testing Library for automated testing. Tests currently verify navigation links and mobile menu open/close behavior. Additional functionality is not yet covered by automated tests.
 
 The application is deployed on **Vercel**. The `vercel.json` configuration provides a rewrite to support client-side routes in the React single-page application.
 
