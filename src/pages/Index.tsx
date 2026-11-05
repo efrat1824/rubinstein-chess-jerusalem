@@ -21,7 +21,7 @@ const Index = () => {
         </div>
         <div className="relative z-10 text-center space-y-8 px-4 animate-fade-in">
           <img src={logo} alt="לוגו מועדון רובינשטיין" className="w-40 h-40 mx-auto object-contain rounded-full shadow-2xl" />
-          <h1 className="text-4xl md:text-6xl font-display font-bold text-primary-foreground leading-tight">
+          <h1 className="text-2xl sm:text-4xl md:text-6xl font-display font-bold text-primary-foreground leading-snug md:leading-tight">
             מועדון השחמט הירושלמי<br /> ע״ש עקיבא רובינשטיין ז"ל
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/80 max-w-xl mx-auto">
@@ -140,31 +140,32 @@ const Index = () => {
 
 
             {/* Community Call-to-Action - להוסיף מעל ה-Footer בדף הבית */}
-            <section className="bg-[#2D3E50] py-20 px-4 text-center border-t border-white/5">
-              <div className="container mx-auto max-w-4xl">
 
-                {/* אייקון קהילה עליון */}
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gold/10 rounded-full mb-6">
-                  <FaUsers className="text-gold w-8 h-8" />
-                </div>
-
-                <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-6">
-                  הצטרפו לקהילת השחמט שלנו
-                </h2>
-
-
-                {/* כפתור בולט שמוביל לעמוד שבנינו */}
-                <Link
-                  to="/join"
-                  className="inline-flex items-center gap-3 bg-gold text-[#2D3E50] px-10 py-4 rounded-full font-bold text-xl shadow-2xl hover:scale-105 hover:bg-white transition-all duration-300 no-underline"
-                >
-                  <span>לכל ערוצי הקהילה</span>
-                  <span className="text-2xl">←</span>
-                </Link>
-
-              </div>
-            </section>
           </div>
+        </div>
+      </section>
+      <section className="bg-[#2D3E50] py-20 px-4 text-center border-t border-white/5">
+        <div className="container mx-auto max-w-4xl">
+
+          {/* אייקון קהילה עליון */}
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-gold/10 rounded-full mb-6">
+            <FaUsers className="text-gold w-8 h-8" />
+          </div>
+
+          <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-6">
+            הצטרפו לקהילת השחמט שלנו
+          </h2>
+
+
+          {/* כפתור בולט שמוביל לעמוד שבנינו */}
+          <Link
+            to="/join"
+            className="inline-flex items-center gap-3 bg-gold text-[#2D3E50] px-10 py-4 rounded-full font-bold text-xl shadow-2xl hover:scale-105 hover:bg-white transition-all duration-300 no-underline"
+          >
+            <span>לכל ערוצי הקהילה</span>
+            <span className="text-2xl">←</span>
+          </Link>
+
         </div>
       </section>
     </div>

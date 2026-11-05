@@ -40,7 +40,13 @@ const Navbar = () => {
         </div>
 
         {/* Mobile toggle */}
-        <button className="md:hidden p-2" onClick={() => setOpen(!open)}>
+        <button
+          type="button"
+          className="md:hidden p-2"
+          aria-label={open ? "סגירת תפריט" : "פתיחת תפריט"}
+          aria-expanded={open}
+          onClick={() => setOpen(!open)}
+        >
           {open ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
