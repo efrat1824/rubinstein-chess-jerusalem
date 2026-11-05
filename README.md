@@ -43,7 +43,7 @@ This is a real-world, deployed front-end application built for a community chess
 
 ## Run locally
 
-**Prerequisites:** Node.js and npm installed; access to this GitHub repository while it is private.
+Prerequisites: Node.js and npm installed.
 
 ```bash
 git clone https://github.com/efrat1824/rubinstein-chess-jerusalem.git
