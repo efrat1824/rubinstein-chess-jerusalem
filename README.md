@@ -16,6 +16,16 @@ This is a real-world, deployed front-end application built for a community chess
 - **Chess club content:** Information about classes, activities, events, and the club community.
 - **Photo gallery:** Images showcasing the club's activities.
 - **Contact and registration information:** Ways for interested visitors to reach the club and learn about joining.
+## Screenshots
+
+### Desktop
+
+![Rubinstein Chess Club homepage — desktop](./docs/screenshots/homepage-desktop.png)
+
+### Mobile
+
+<img src="./docs/screenshots/homepage-mobile.jpeg" alt="Rubinstein Chess Club homepage — mobile" width="280" />
+
 
 ## Tech stack
 
