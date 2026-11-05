@@ -72,7 +72,7 @@ vercel.json        # SPA routing configuration for deployment
 
 ## Testing and deployment
 
-The project includes Vitest configuration and an initial example test. These files establish a starting point for automated testing; they do **not** represent comprehensive coverage of the website's functionality.
+The project includes Vitest and React Testing Library for automated testing, with initial test configuration and further test coverage planned.
 
 The application is deployed on **Vercel**. The `vercel.json` configuration provides a rewrite to support client-side routes in the React single-page application.
 
@@ -84,4 +84,4 @@ After the initial prototype, I continued developing, customizing, and maintainin
 
 **Efrat Cohen** · [GitHub](https://github.com/efrat1824)
 
-*Note: Club branding, photographs, and website content may have separate ownership or usage permissions. Confirm those permissions before making the repository public or reusing its assets.*
+
