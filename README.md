@@ -2,7 +2,7 @@
 
 **A live, Hebrew-language website for the Rubinstein Chess Club in Jerusalem.** The website helps players, parents, and visitors explore the club's activities, discover chess classes and tournaments, and get in touch with the club.
 
-**[Visit the live website](https://rubinstein-chess-jerusalem.org.il/)** · **[GitHub repository](https://github.com/efrat1824/rubinstein-chess-jerusalem)** (currently private)
+**[Visit the live website](https://rubinstein-chess-jerusalem.org.il/)** · **[GitHub repository](https://github.com/efrat1824/rubinstein-chess-jerusalem)** 
 
 ## Project overview
 
