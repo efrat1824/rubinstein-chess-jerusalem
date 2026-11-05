@@ -20,11 +20,12 @@ This is a real-world, deployed front-end application built for a community chess
 
 ### Desktop
 
-![Rubinstein Chess Club homepage — desktop](./docs/screenshots/homepage-desktop.png)
+![Rubinstein Chess Club homepage — desktop](docs/images/homepage-desktop.png)
 
 ### Mobile
 
-<img src="./docs/screenshots/homepage-mobile.jpeg" alt="Rubinstein Chess Club homepage — mobile" width="280" />
+<img src="docs/images/homepage-mobile.jpeg" alt="Rubinstein Chess Club homepage — mobile" width="280" />
+
 
 
 ## Tech stack
