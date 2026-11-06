@@ -93,6 +93,6 @@ After the initial prototype, I continued developing, customizing, and maintainin
 
 ## Maintainer
 
-**Efrat Cohen** · [GitHub](https://github.com/efrat1824)
+**Efrat Katz** · [GitHub](https://github.com/efrat1824)
 
 
